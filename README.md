@@ -2,9 +2,7 @@
 
 ## 1 - Small description
 
-**FR 🇫🇷** : Le but de ce projet fut de tester OpenCore avec une version récente de macOS, avec une future spécialisation d'application Apple.
-
-**EN 🇺🇸**: The aim of this project was to test OpenCore with a recent version of macOS, with a future Apple application specialization.
+The aim of this project was to test OpenCore with a recent version of macOS, with a future Apple application specialization.
 
 ## 2 - The hardware configuration
 
@@ -102,20 +100,6 @@ For more information : [All screenshots](DOCS/0_All_Screenshots.md)
 
 ### 4 - Feadback
 
-**FR 🇫🇷**: En global, l'OS tourne comme une horloge. Mais, j'ai tout de même des ralentissements assez présents. 
- 
- Je pense que cela est directement dû à la charge subie par le processeur, la mémoire vive et le stockage, qui sont aujourd'hui très faibles par rapport aux dernières technologies.
- 
-Côté stockage, le SSD montre bien sa faiblesse, à cause des débits d'écritures et lectures très faibles par rapport aux débits utilisés sur un matériel prévu pour cet OS.
-Côté mémoire vive, j'ai pu constater une utilisation importante parmi l'OS sans applications ouvertes. Puis, en combinant des applications comme Google Chrome, Teams et Visual Studio Code, la mémoire vive arrive rapidement à un niveau important, à la limite de la saturation.
-Côté CPU, je n'ai pas ressenti trop de points négatifs, mis à part son lent vieillissement pu ressenti par sa robustesse.
-
-Cependant, je pense refaire l'essai plus tard avec une autre configuration plus récente (par exemple : Intel i7 12th gen + 64Go RAM + 1To SSD M.2).
-
-Merci d'avoir pris le temps de découvrir mon essai.
-
-**EN 🇺🇸**:
-
 Overall, the OS runs like clockwork. However, I do experience some slowdowns. 
 
 I think this is directly due to the load on the processor, RAM and storage, which are now very low compared with the latest technologies.
@@ -125,5 +109,10 @@ As far as RAM is concerned, I found that the OS was used extensively without any
 As for the CPU, I didn't experience too many negative points, apart from its slow ageing, which I felt was due to its robustness.
 
 However, I'm thinking of giving it another try later with a more recent configuration (for example: Intel i7 12th gen + 64GB RAM + 1TB SSD M.2).
+
+### 5 - If you want to test
+The project is viable and you simply need to copy and paste the EFI folder for a similar configuration.
+
+### 6 - Thanks
 
 Thank you for taking the time to discover my test.

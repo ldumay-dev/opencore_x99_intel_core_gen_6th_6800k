@@ -1,71 +1,75 @@
 # OpenCore - X99 - i7 Gen 6th - i7-6800k
 
-## Description
+## 1 - Small description
 
-FR : Ce projet à pour but simple de testé macOS sur une configuration fixe avant la migration futur vers un véritable MacPro, ainsi que de pouvoir explorer les nombres possibles de développement sur, dans et pour macOS (=> apprendre l'ingénierie système bas niveau).
+**FR 🇫🇷** : Le but de ce projet fut de tester OpenCore avec une version récente de macOS, avec une future spécialisation d'application Apple.
 
-EN: The simple aim of this project is to test macOS on a fixed configuration before the future migration to a real MacPro, as well as to explore the possible numbers of developments on, in and for macOS (=> learn low-level systems engineering).
+**EN 🇺🇸**: The aim of this project was to test OpenCore with a recent version of macOS, with a future Apple application specialization.
 
-## Configuration obtenue
+## 2 - The hardware configuration
 
-### Dates de test
+- Power supply: **Corsair RM 1000W**
+- Motherboard: **GA-X99-UD4**
+- CPU: **Intel Core i7 6800K @ 3,40Ghz 6 Cores (12 Threads)**
+    - Architecture: **Broadwell E**
+- RAM: **32 Go - 8x 8Go 3200Mhz DDR4**
+- GPU: **AMD Readeon RX 6600 XT 8Go**
+- Network:
+    - Ethernet: ***[...]***
+    - Wifi & BT: Intel ***Dual Band Wireless-AC 7265***
+        - Ref: **Intel 7265.NGWG.W**
+        - Wifi
+            - Protocols: **IEEE 802.11b (Wifi 1)**, **IEEE 802.11a (Wifi 2)**, **IEEE 802.11g (Wifi 3)**, **IEEE 802.11n (Wifi 4)**, **IEEE 802.11ac (Wifi 5)**
+        - Bluetooth protocols: **Bluetooth 4.2**
+        - Interface: **M.2**
+- Storage disk: SSD Crucial BX500 SATA 6 Gb/s 2.5"
+    - Read: **540** Mo/s
+    - Write: **500** Mo/s
+- Screens:
+    - Screen 1: **DELL P2310H 28"**
+        - Size: **28"**
+        - Resolution: **3840x2160**
+        - Refresh rate: **60Hz**
+        - Interface: **DisplayPort**
+        - Disposition: **Payage**
+    - Screen 2: **DELL P2310H 23"**
+        - Size: **23"**
+        - Resolution: **1920x1080**
+        - Refresh rate: **30Hz**
+        - Interface: **HDMI**
+        - Disposition: **Portrait**
+    - Screen 3: **DELL P2311H 23"
+        - Size: **23"**
+        - Resolution: **1920x1080**
+        - Refresh rate: **30Hz**
+        - Interface: **HDMI**
+        - Disposition: **Portrait**
 
-- Premiers essais : 2024-06-11
-- Derniers essais : 2024-06-14
-- Durée de test de cette version : actuel (last: 2024-09-10)
+## 3 - The OpenCore configuration
 
-### Verions testé de MacOS :
+### 3.1 - Targeted tests
 
-- MacOS Ventura (13.6.7) : ✅
-- MacOS Sonoma (14.5) : ❌ (ne passe pas)
+- Computer: **Mac Pro - MacPro7,1** 
+- OS version: **Sonoma (14.5)**
 
-### Configuration
+### 3.2 - Résults
 
-<img src="SCREENSHOTS/test_0.1_img_001.png" max-width="300px" />
+#### 3.2.1 - OS tested
 
-- Target OS:
-    - Mac computer: **Mac Pro - MacPro7,1** 
-    - Mac OS version: **macOS Ventura (13.6.7)**
-- Computer:
-    - Power supply: **Corsair RM 1000W**
-    - Motherboard: **GA-X99-UD4**
-    - CPU: **Intel Core i7 6800K @ 3,40Ghz 6 Cores**
-        - Architecture: **Broadwell E**
-    - RAM: **32 Go - 8x 8Go 3200Mhz DDR4**
-    - GPU: **AMD Readeon RX 6600 XT 8Go**
-    - Screen:
-        - Screen 1: **DELL P2310H 28"**
-            - Size: **28"**
-            - Resolution: **3840x2160**
-            - Refresh rate: **60Hz**
-            - Interface: **DisplayPort**
-            - Disposition: **Payage**
-        - Screen 2: **DELL P2310H 23"**
-            - Size: **23"**
-            - Resolution: **1920x1080**
-            - Refresh rate: **30Hz**
-            - Interface: **HDMI**
-            - Disposition: **Portrait**
-        - Screen 3: **DELL P2311H 23"
-            - Size: **23"**
-            - Resolution: **1920x1080**
-            - Refresh rate: **30Hz**
-            - Interface: **HDMI**
-            - Disposition: **Portrait**
-    - Network:
-        - Ethernet: ***[...]***
-        - Wifi & BT: Intel ***[...]***
-    - Storage disk: SSD Crucial BX500 SATA 6 Gb/s 2.5"
-        - Read: **540** Mo/s
-        - Write: **500** Mo/s
-    
-> **NB:**
->   - FR: Avec macOS Ventura, j'ai ressenti des ralentissements lors de grosse charge d'écriture sur le disque dur. Il est possible que cela soit fortement dû au SSD, mais aussi au processeur qui commence à vieillir pour de nouveaux OS.
->    - EN: With macOS Ventura, I experienced slowdowns during heavy write loads on the hard disk. This may be largely due to the SSD, but also to the processor, which is starting to age for new OS.
+- Ventura (13.6.7) : ✅
+- Sonoma (14.5) : ❌ (doesn't work)
+
+#### 3.2.2 - Test times
+
+- First tests: 2024-06-11
+- Last tests: 2024-06-14
+- Test duration of this version: current (last: 2024-09-10)
+
+#### 3.2.3 - Features tested in Ventura
+
+![test_0.1_img_001](SCREENSHOTS/test_0.1_img_001.png)
 
 For more information : [All screenshots](DOCS/0_All_Screenshots.md)
-
-### Functional features
 
 - Bootloader:
     - OpenCore: ✅
@@ -95,3 +99,31 @@ For more information : [All screenshots](DOCS/0_All_Screenshots.md)
         - System Preferences: ✅
             - Stability :🔄
         - System updates: 🤷‍♂️
+
+### 4 - Feadback
+
+**FR 🇫🇷**: En global, l'OS tourne comme une horloge. Mais, j'ai tout de même des ralentissements assez présents. 
+ 
+ Je pense que cela est directement dû à la charge subie par le processeur, la mémoire vive et le stockage, qui sont aujourd'hui très faibles par rapport aux dernières technologies.
+ 
+Côté stockage, le SSD montre bien sa faiblesse, à cause des débits d'écritures et lectures très faibles par rapport aux débits utilisés sur un matériel prévu pour cet OS.
+Côté mémoire vive, j'ai pu constater une utilisation importante parmi l'OS sans applications ouvertes. Puis, en combinant des applications comme Google Chrome, Teams et Visual Studio Code, la mémoire vive arrive rapidement à un niveau important, à la limite de la saturation.
+Côté CPU, je n'ai pas ressenti trop de points négatifs, mis à part son lent vieillissement pu ressenti par sa robustesse.
+
+Cependant, je pense refaire l'essai plus tard avec une autre configuration plus récente (par exemple : Intel i7 12th gen + 64Go RAM + 1To SSD M.2).
+
+Merci d'avoir pris le temps de découvrir mon essai.
+
+**EN 🇺🇸**:
+
+Overall, the OS runs like clockwork. However, I do experience some slowdowns. 
+
+I think this is directly due to the load on the processor, RAM and storage, which are now very low compared with the latest technologies.
+
+On the storage side, SSDs show their weaknesses, with very low read/write speeds compared with those used on hardware designed for this OS.
+As far as RAM is concerned, I found that the OS was used extensively without any applications open. Then, when combining applications such as Google Chrome, Teams and Visual Studio Code, RAM quickly reached a significant level, bordering on saturation.
+As for the CPU, I didn't experience too many negative points, apart from its slow ageing, which I felt was due to its robustness.
+
+However, I'm thinking of giving it another try later with a more recent configuration (for example: Intel i7 12th gen + 64GB RAM + 1TB SSD M.2).
+
+Thank you for taking the time to discover my test.

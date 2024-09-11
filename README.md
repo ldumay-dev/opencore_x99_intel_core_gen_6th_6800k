@@ -54,10 +54,15 @@ The aim of this project was to test OpenCore with a recent version of macOS, wit
 
 #### 3.2.1 - OS tested
 
-| OpenCore | OS | Result | Status |
-|---|---|---|---|---|
-| 1.0.0 | Ventura (13.6.7) | ✅ | Good |
-| 1.0.0 | Sonoma (14.5) | ❌ | **[Blocked]** AppleSMC => Auto reboot [like here](https://i.redd.it/k4yhdjrwzzcd1.jpeg) |
+- Ventura :
+	- OpenCore : 1.0.0
+	- OS : Ventura (13.6.7)
+	- Result : ✅ Good
+- Sonoma :
+	- OpenCore : 1.0.0
+	- OS : Sonoma (14.5)
+	- Result : ❌ : 
+		- **[Blocked]** AppleSMC => Auto reboot - [like here](https://i.redd.it/k4yhdjrwzzcd1.jpeg)
 
 #### 3.2.2 - Test times
 

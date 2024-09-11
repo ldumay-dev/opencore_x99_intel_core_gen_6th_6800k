@@ -8,16 +8,16 @@ The aim of this project was to test OpenCore with a recent version of macOS, wit
 
 - Power supply: **Corsair RM 1000W**
 - Motherboard: **GA-X99-UD4**
+	- BIOS: **F23**
 - CPU: **Intel Core i7 6800K @ 3,40Ghz 6 Cores (12 Threads)**
-    - Architecture: **Broadwell E**
+    - Architecture: **Broadwell E, 2011-3**
 - RAM: **32 Go - 8x 8Go 3200Mhz DDR4**
 - GPU: **AMD Readeon RX 6600 XT 8Go**
 - Network:
-    - Ethernet: ***[...]***
-    - Wifi & BT: Intel ***Dual Band Wireless-AC 7265***
+	- Ethernet: **Intel® GbE LAN chips (10/100/1000 Mbit)**
+   - Wifi & BT: **Intel® Dual Band Wireless-AC 7265 (b/a/g/n/ac/BT 4.2)**
         - Ref: **Intel 7265.NGWG.W**
-        - Wifi
-            - Protocols: **IEEE 802.11b (Wifi 1)**, **IEEE 802.11a (Wifi 2)**, **IEEE 802.11g (Wifi 3)**, **IEEE 802.11n (Wifi 4)**, **IEEE 802.11ac (Wifi 5)**
+        - Wifi protocols: **IEEE 802.11b (Wifi 1)**, **IEEE 802.11a (Wifi 2)**, **IEEE 802.11g (Wifi 3)**, **IEEE 802.11n (Wifi 4)**, **IEEE 802.11ac (Wifi 5)**
         - Bluetooth protocols: **Bluetooth 4.2**
         - Interface: **M.2**
 - Storage disk: SSD Crucial BX500 SATA 6 Gb/s 2.5"
@@ -54,8 +54,10 @@ The aim of this project was to test OpenCore with a recent version of macOS, wit
 
 #### 3.2.1 - OS tested
 
-- Ventura (13.6.7) : ✅
-- Sonoma (14.5) : ❌ (doesn't work)
+| OpenCore | OS | Result | Status |
+|---|---|---|---|---|
+| 1.0.0 | Ventura (13.6.7) | ✅ | Good |
+| 1.0.0 | Sonoma (14.5) | ❌ | **[Blocked]** AppleSMC => Auto reboot [like here](https://i.redd.it/k4yhdjrwzzcd1.jpeg) |
 
 #### 3.2.2 - Test times
 
@@ -111,8 +113,16 @@ As for the CPU, I didn't experience too many negative points, apart from its slo
 However, I'm thinking of giving it another try later with a more recent configuration (for example: Intel i7 12th gen + 64GB RAM + 1TB SSD M.2).
 
 ### 5 - If you want to test
+
 The project is viable and you simply need to copy and paste the EFI folder for a similar configuration.
 
-### 6 - Thanks
+### 6 - Main sources
+
+- To prepare OpenCore for my configuration :
+	- [https://www.reddit.com/r/hackintosh/comments/17mlgzn/huananzhi_x99_bd4_intel_xeon_e52670_v3_amd_radeon/](https://www.reddit.com/r/hackintosh/comments/17mlgzn/huananzhi_x99_bd4_intel_xeon_e52670_v3_amd_radeon/)
+- To disable auto-restart when controlling AppleSMC.: 
+	- [https://www.reddit.com/r/hackintosh/comments/1e584hg/system_shutting_down_when_opening_macos_installer/](https://www.reddit.com/r/hackintosh/comments/1e584hg/system_shutting_down_when_opening_macos_installer/)
+
+### 7 - Thanks
 
 Thank you for taking the time to discover my test.

@@ -102,7 +102,7 @@ For more information : [All screenshots](DOCS/0_All_Screenshots.md)
         - Collaborate: ✅
         - App Store: ✅
         - System Preferences: ✅
-            - Stability :🔄
+            - Stability: 🔄
         - System updates: 🤷‍♂️
 
 ### 4 - Feadback
@@ -124,9 +124,9 @@ The project is viable and you simply need to copy and paste the EFI folder for a
 ### 6 - Main sources
 
 - To prepare OpenCore for my configuration :
-	- [https://www.reddit.com/r/hackintosh/comments/17mlgzn/huananzhi_x99_bd4_intel_xeon_e52670_v3_amd_radeon/](https://www.reddit.com/r/hackintosh/comments/17mlgzn/huananzhi_x99_bd4_intel_xeon_e52670_v3_amd_radeon/)
+	- [Reddit (r/hackintosh) : huananzhi_x99_bd4_intel_xeon_e52670_v3_amd_radeon/](https://www.reddit.com/r/hackintosh/comments/17mlgzn/huananzhi_x99_bd4_intel_xeon_e52670_v3_amd_radeon/)
 - To disable auto-restart when controlling AppleSMC.: 
-	- [https://www.reddit.com/r/hackintosh/comments/1e584hg/system_shutting_down_when_opening_macos_installer/](https://www.reddit.com/r/hackintosh/comments/1e584hg/system_shutting_down_when_opening_macos_installer/)
+	- [Reddit (r/hackintosh) : system_shutting_down_when_opening_macos_installer/](https://www.reddit.com/r/hackintosh/comments/1e584hg/system_shutting_down_when_opening_macos_installer/)
 
 ### 7 - Thanks
 

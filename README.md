@@ -20,7 +20,7 @@ The aim of this project was to test OpenCore with a recent version of macOS, wit
         - Wifi protocols: **IEEE 802.11b (Wifi 1)**, **IEEE 802.11a (Wifi 2)**, **IEEE 802.11g (Wifi 3)**, **IEEE 802.11n (Wifi 4)**, **IEEE 802.11ac (Wifi 5)**
         - Bluetooth protocols: **Bluetooth 4.2**
         - Interface: **M.2**
-- Storage disk: SSD Crucial BX500 SATA 6 Gb/s 2.5"
+- Storage disk: **SSD Crucial BX500 SATA 6 Gb/s 2.5"**
     - Read: **540** Mo/s
     - Write: **500** Mo/s
 - Screens:
@@ -36,7 +36,7 @@ The aim of this project was to test OpenCore with a recent version of macOS, wit
         - Refresh rate: **30Hz**
         - Interface: **HDMI**
         - Disposition: **Portrait**
-    - Screen 3: **DELL P2311H 23"
+    - Screen 3: **DELL P2311H 23"**
         - Size: **23"**
         - Resolution: **1920x1080**
         - Refresh rate: **30Hz**

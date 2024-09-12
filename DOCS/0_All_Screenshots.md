@@ -18,3 +18,4 @@
 ![img](../SCREENSHOTS/test_0.1_img_007.png)
 ![img](../SCREENSHOTS/test_0.1_img_008.png)
 ![img](../SCREENSHOTS/test_0.1_img_009.png)
+![img](../SCREENSHOTS/test_0.1_img_010.png)

@@ -61,8 +61,13 @@ The aim of this project was to test OpenCore with a recent version of macOS, wit
 - Sonoma :
 	- OpenCore : 1.0.0
 	- OS : Sonoma (14.5)
-	- Result : ❌ : 
+	- Result : ✅ Good : 
 		- **[Blocked]** AppleSMC => Auto reboot - [like here](https://i.redd.it/k4yhdjrwzzcd1.jpeg)
+        - Resolved with : **SecureBootModel** => **Disabled**
+- Sequoia
+    - OpenCore : 1.0.0
+	- OS : Sequoia (15)
+	- Result : ❌ - Not tested !
 
 #### 3.2.2 - Test times
 

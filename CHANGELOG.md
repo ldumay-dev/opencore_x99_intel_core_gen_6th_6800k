@@ -7,9 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added - Kext files
+### Added & Updated - Kext files
 
 #### Added
 
 - BlueToolFixup.kext : v2.6.9
 - IntelBluetoothFirmware.kext : v2.4.0
+
+#### Updated
+
+- Lilu.kext : v1.6.7 to v1.7.0
+- The config.plist
